@@ -12,7 +12,7 @@ section:not(.footer){
   max-height: calc(100vh - var(--header-height));
   margin: 0 auto;
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 /* 섹션 이미지 */
 .image img{
@@ -28,13 +28,13 @@ section:not(.footer){
   font-size: 2rem;
   color: var(--primary-color);
   transition: .7s ease-out;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .content p{
   font-size: 1.2rem;
   padding: 1rem 0;
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin-left: auto;
   line-height: 2rem;
   transition: .7s ease-out;
