@@ -106,3 +106,5 @@ window.addEventListener('load', event => {
     }
   })
 })
+
+console.log('date: ' + new Date(new Date('04 Mar 2022 12:20:30') - new Date()));
