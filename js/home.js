@@ -37,7 +37,7 @@ window.addEventListener('load', event => {
   window.addEventListener('scroll', event => {
     // 해당 섹션이 헤더에 가까워지면 애니메이션 적용
     sections.forEach(section => {
-      console.log(section, section.getBoundingClientRect().top, header.offsetHeight);
+      // console.log(section, section.getBoundingClientRect().top- 200, header.offsetHeight);
       if(section.getBoundingClientRect().top < header.offsetHeight + 200){
         const blogs = section.querySelectorAll('.blog');
         blogs.forEach(blog => blog.classList.add('show'));
